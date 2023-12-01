@@ -1,0 +1,52 @@
+h1,
+p {
+  text-align: center;
+}
+
+table {
+  border: 1px solid;
+  width: 50px;
+  margin: 1rem auto auto 25rem;
+}
+
+th {
+  border: 1px solid;
+  text-align: center;
+  background-color: lawngreen;
+  padding: 1em;
+}
+
+td {
+  border: 1px solid black;
+  text-align: center;
+  background-color: lemonchiffon;
+  padding: 1em;
+  margin-top: 0px;
+}
+
+#pagediv {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+#page {
+  display: inline-block;
+}
+
+#page a {
+  color: blue;
+  float: left;
+  text-decoration: none;
+  padding: 8px 15px;
+  border: 1px solid lightslategray;
+  transition: background-color.3s;
+}
+
+/* #page a.active {
+  background-color: blue;
+  color: white;
+} */
+
+#page a:hover:not(.active) {
+  background-color: lightslategrey;
+}

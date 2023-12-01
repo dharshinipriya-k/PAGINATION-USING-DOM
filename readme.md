@@ -1,0 +1,1 @@
+This repo contains code for Displaying data in table format and navigating using pagination. No html tags were used and everything was done through DOM
